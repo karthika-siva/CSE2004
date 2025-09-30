@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.image {
+  width: 200ox;     
+  height: auto;     
+  transform: rotate(0deg);
+  transition: transform 1s ease;
+}
+
+.image:hover {
+  transform: rotate(360deg);
+}
